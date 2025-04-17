@@ -17,9 +17,9 @@ Prepare Jetson Orin Nano devices to:
 3. Complete initial setup (create user, connect to Wi-Fi or Ethernet).
 4. From a separate computer, use SSH to connect to the Jetson:
 
-```bash
+```````````````````````````````````````````````````````````````````````````````````````````````````
 ssh your_username@<192.168.55.1>
-```
+```````````````````````````````````````````````````````````````````````````````````````````````````
 
 > 💡 **It is strongly recommended to use SSH for the rest of the setup** to make copying/pasting commands easier.
 
