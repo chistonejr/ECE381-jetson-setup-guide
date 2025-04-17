@@ -131,5 +131,5 @@ chmod +x docker_dli_run.sh
 ## 📌 Credits
 
 **Prepared for:** Course Instructors using Jetson Orin Nano with JetPack 6.0.2    
-**Compiled by:** Christopher Benjamin Jr. 
+**Compiled by:** Christopher Benjamin Jr.       
 **With advisory support from:** ChatGPT (OpenAI)
