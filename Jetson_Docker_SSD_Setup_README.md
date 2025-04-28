@@ -19,7 +19,9 @@ Prepare Jetson Orin Nano devices to:
  Username: ece381-<Jetson#>
  Password: machinelearning<Jetson#>
 ```````````````````````````````````````````````````````````````````````````````````````````````````
-4. From a separate computer, use SSH to connect to the Jetson:
+4. Plug in USB A - USB C (USB C to Jetson and USB A to Computer)
+> ⚠️ "USB A - USB C" wire **MUST** be connected before SSH or else an error will show
+5. Use SSH to connect to the Jetson:
 
 ```````````````````````````````````````````````````````````````````````````````````````````````````
 ssh ece381-<Jetson #>@192.168.55.1
