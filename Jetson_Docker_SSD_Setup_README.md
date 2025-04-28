@@ -37,8 +37,15 @@ ssh ece381-<Jetson #>@192.168.55.1
 
 ```bash
 lsblk                          # Look for /dev/nvme0n1p1
+
+You should see this:
+
+
+
+
 sudo mkdir -p /mnt/nvme        # Create a mount point
 sudo mount /dev/nvme0n1p1 /mnt/nvme      # Mount the SSD
+
 ```
 
 Make the mount permanent by editing `/etc/fstab`:
@@ -74,7 +81,7 @@ ls -l /var/lib | grep docker
 # You should see: docker -> /mnt/nvme/docker
 
 sudo du -sh /mnt/nvme/docker
-# Should return several GB if working properly
+# Should return a number in KB size indicating that SSD is empty and ready for use.
 ```
 
 > 📝 `docker.bak` is a backup of the original Docker folder on the SD card that you may also notice. Keep it unless space is needed or everything is confirmed working.
@@ -105,6 +112,9 @@ chmod +x docker_dli_run.sh
 ```bash
 ./docker_dli_run.sh
 ```
+
+> 👀 When you see "Unable to find image `'nvcr.io/nvidia/dli/dli-nano-ai:v2.0.3-r36.3.0'` locally" after running the container, please wait a few minutes for the initial installation to start. This is NOT an error!
+
 
 > ⚠️ If you get an `invalid reference format` error, check your quotes and slashes, especially in step 4.2.
 
