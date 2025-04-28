@@ -42,7 +42,7 @@ You should see this:
 
 ![Whatyoushouldsee](Whatyoushouldsee.png)
 
-> 🛑 **Important:** If you do not see what is shown exactly in the red circle of the image above, meaning that the subdirectory `nvme0n1p1` is missing and only `nvme0n1` is shown, this means that your device's SSD needs to be **partitioned** in order to move forward. Once you partition your device please return here to follow the next step which is the `sudo mkdir -p /mnt/nvme` shown under this line. Here is the link to the partition instructions:  
+> 🛑 **Important:** If you do not see what is shown exactly in the red circle of the image above, meaning that the subdirectory `nvme0n1p1` is missing and only `nvme0n1` is shown, this means that your device's SSD needs to be **partitioned** in order to move forward. Once you partition your device please return here to follow the next step which is the `sudo mkdir -p /mnt/nvme` shown under this line. Here is the link to the partition instructions: [SSDPartition](SSD_Partitioning_and_Formatting.md) 
 
 ```
 sudo mkdir -p /mnt/nvme        # Create a mount point
