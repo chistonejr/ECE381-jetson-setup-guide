@@ -40,7 +40,7 @@ lsblk                          # Look for /dev/nvme0n1p1
 
 You should see this:
 
-![What you should see](What you should see.png)
+![Whatyoushouldsee](Whatyoushouldsee.png)
 
 
 sudo mkdir -p /mnt/nvme        # Create a mount point
