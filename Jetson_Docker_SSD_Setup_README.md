@@ -15,6 +15,10 @@ Prepare Jetson Orin Nano devices to:
 1. Download JetPack 6.0.2 from NVIDIA and flash it to the SD card using SDK Manager or Balena Etcher.
 2. Insert the SD card into the Jetson device and boot.
 3. Complete initial setup (create user, connect to Wi-Fi or Ethernet).
+```````````````````````````````````````````````````````````````````````````````````````````````````
+ Username: ece381-<Jetson#>
+ Password: machinelearning<Jetson#>
+```````````````````````````````````````````````````````````````````````````````````````````````````
 4. From a separate computer, use SSH to connect to the Jetson:
 
 ```````````````````````````````````````````````````````````````````````````````````````````````````
