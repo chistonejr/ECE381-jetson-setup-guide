@@ -29,6 +29,7 @@ This ensures the new partition is recognized by the operating system.
 **3. Format the new partition** 
 ```
 sudo mkfs.ext4 /dev/nvme0n1p1
-
 ```
 **4. Proceed with regular steps**
+
+[Click to return](Jetson_Docker_SSD_Setup_README.md)
