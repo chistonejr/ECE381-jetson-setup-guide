@@ -119,7 +119,7 @@ chmod +x docker_dli_run.sh
 
 > 👀 When you see "Unable to find image `'nvcr.io/nvidia/dli/dli-nano-ai:v2.0.3-r36.3.0'` locally" after running the container, this could mean 1 out of 2 things:
 >> 1. The system is taking time to begin image installtions. Please wait a few minutes for the initial installation to start. This is NOT an error!
->> 2. You are not connected to the internet or the connection is not strong enough. We recommend a direct ethernet connection or a strong wifi connection
+>> 2. You are not connected to the internet or the connection is not strong enough. We recommend a direct ethernet connection or a strong wifi connection.
 
 
 > ⚠️ If you get an `invalid reference format` error, check your quotes and slashes, especially in step 4.2.
