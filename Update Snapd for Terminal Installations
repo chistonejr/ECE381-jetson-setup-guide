@@ -1,0 +1,7 @@
+Use these lines of code when you want to install 'Software Apps' from the terminal. You only need to do this once. This will usually serve for when the Jetson Nano is fully factory reset. 
+
+Run these lines before making first  software install on Jetson (first install after factory reset, if reset).
+snap download snapd --revision=24724
+sudo snap ack snapd_24724.assert
+sudo snap install snapd_24724.snap
+sudo sudo snap refresh --hold snapd
