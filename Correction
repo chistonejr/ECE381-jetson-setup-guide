@@ -1,0 +1,7 @@
+sudo docker run -it --ipc=host --runtime=nvidia \
+  --device=/dev/video0 \
+  -v /home/ece381-31/Documents/yolo_workspace:/workspace \
+  -e DISPLAY=$DISPLAY \
+  -e QT_X11_NO_MITSHM=1 \
+  -v /tmp/.X11-unix:/tmp/.X11-unix \
+  $t
