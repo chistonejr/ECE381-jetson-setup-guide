@@ -1,4 +1,7 @@
-sudo docker run -it --ipc=host --runtime=nvidia \
+t=nvcr.io/nvidia/l4t-pytorch:r35.3.1-pth2.0-py3
+
+sudo docker run -it --rm --network host --ipc=host \
+  --runtime=nvidia \
   --device=/dev/video0 \
   -v /home/ece381-31/Documents/yolo_workspace:/workspace \
   -e DISPLAY=$DISPLAY \
