@@ -1,0 +1,18 @@
+# Lab 3 – Visual Transformers using NANOOWL / OWL-ViT
+
+This lab demonstrates how to run visual transformer inference on Jetson devices using **NANOOWL** (OWL-ViT implementation) inside NVIDIA’s `jetson-containers` environment.
+
+---
+
+## 🧠 Prerequisites
+- **JetPack 6.2 / CUDA 12.6** environment  
+- **Camera connected** and accessible via `/dev/video*`
+- Internet access (for cloning and installing dependencies)
+
+---
+
+## 🚀 Step 1: Clone and set up `jetson-containers`
+
+```bash
+git clone https://github.com/dusty-nv/jetson-containers
+bash jetson-containers/install.sh
