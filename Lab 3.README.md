@@ -8,7 +8,10 @@ This lab demonstrates how to run visual transformer inference on Jetson devices 
 - **JetPack 6.2 / CUDA 12.6** environment  
 - **Camera connected** and accessible via `/dev/video*`
 - Internet access (for cloning and installing dependencies)
-
+## 📂 Step 0: Go to Documents
+```bash
+cd Documents
+````
 ---
 
 ## 🚀 Step 1: Clone and set up `jetson-containers`
