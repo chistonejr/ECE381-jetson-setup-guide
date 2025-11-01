@@ -71,7 +71,7 @@ A “blinking” terminal is **normal**—the server is running and waiting for 
 hostname -I
 ````
 
-Open `http://<jetson-ip>:7860` in your browser.
+2. Open `http://<jetson-ip>:7860` in your browser.
 
 ## 🛠 Troubleshooting
 
