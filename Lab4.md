@@ -20,7 +20,7 @@ cd Documents
 ````
 
 ## 🚀 Step 1 – Clone and set up `jetson-containers`
-⚠️ Please note that this setup should have been done in the previous [Lab 3](https://github.com/chistonejr/ECE381-jetson-setup-guide/blob/main/Lab%203.README.md)
+⚠️ Please note that this setup should have been done in the previous [Lab 3](https://github.com/chistonejr/ECE381-jetson-setup-guide/blob/main/Lab%203.md))
 ```bash
 git clone https://github.com/dusty-nv/jetson-containers
 bash jetson-containers/install.sh
