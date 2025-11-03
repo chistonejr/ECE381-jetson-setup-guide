@@ -30,8 +30,7 @@ bash jetson-containers/install.sh
 
 Use a tested tag (worked reliably in our environment):
 ```bash
-jetson-containers run --network host \
-  --workdir /opt/stable-diffusion-webui \
+jetson-containers run --workdir /opt/stable-diffusion-webui \
   daivdl487/stable-diffusion-webui:r36.4.3
 
 ````
