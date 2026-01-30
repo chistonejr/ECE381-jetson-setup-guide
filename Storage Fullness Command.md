@@ -3,4 +3,6 @@ Use this when you want to check if the storage is full. For this course, general
 
 Use this command below to view storage percentage of the current storage device on the Jetson Orin Nano in use
 
-```df -h```
+```bash
+df -h
+```
